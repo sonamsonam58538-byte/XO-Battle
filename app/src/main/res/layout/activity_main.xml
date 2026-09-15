@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:orientation="vertical"
+    android:gravity="center"
+
+    android:padding="25dp"
+
+    android:background="@drawable/background">
+
+
+    <!-- XO Logo -->
+
+    <ImageView
+
+        android:id="@+id/logoImage"
+
+        android:layout_width="220dp"
+        android:layout_height="220dp"
+
+        android:src="@drawable/xo_logo"
+
+        android:layout_marginBottom="25dp"/>
+
+
+
+    <!-- Title -->
+
+    <TextView
+
+        android:layout_width="wrap_content"
+
+        android:layout_height="wrap_content"
+
+        android:text="XO BATTLE"
+
+        android:textSize="38sp"
+
+        android:textStyle="bold"
+
+        android:textColor="#FFD700"
+
+        android:letterSpacing="0.08"
+
+        android:layout_marginBottom="45dp"/>
+
+
+
+    <!-- Online Button -->
+
+    <com.google.android.material.button.MaterialButton
+
+        android:id="@+id/btnOnline"
+
+        android:layout_width="280dp"
+
+        android:layout_height="65dp"
+
+        android:text="🌐  ONLINE BATTLE"
+
+        android:textSize="19sp"
+
+        android:textStyle="bold"
+
+        android:textColor="#00FFFF"
+
+
+        app:cornerRadius="35dp"
+
+        app:strokeWidth="3dp"
+
+        app:strokeColor="#00BFFF"
+
+        app:backgroundTint="#071A3D"
+
+        app:rippleColor="#00FFFF"
+
+        android:layout_marginBottom="25dp"/>
+
+
+
+    <!-- Exit Button -->
+
+    <com.google.android.material.button.MaterialButton
+
+        android:id="@+id/btnExit"
+
+        android:layout_width="280dp"
+
+        android:layout_height="65dp"
+
+        android:text="EXIT GAME"
+
+        android:textSize="19sp"
+
+        android:textStyle="bold"
+
+        android:textColor="#FF5555"
+
+
+        app:cornerRadius="35dp"
+
+        app:strokeWidth="3dp"
+
+        app:strokeColor="#FF5555"
+
+        app:backgroundTint="#071A3D"
+
+        app:rippleColor="#FF5555"/>
+
+
+</LinearLayout>

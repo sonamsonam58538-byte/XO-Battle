@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1059897645288",
+    "project_id": "xo-battle-90324",
+    "storage_bucket": "xo-battle-90324.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1059897645288:android:85766f1d821fb19c78d15d",
+        "android_client_info": {
+          "package_name": "com.example.xobattle"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCIYJi4JLJZyg7DZgSPyIzZ5MvzEtjGSbA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Same navy glass color -->
+    <solid android:color="#66101B4D"/>
+
+    <!-- Rounded button -->
+    <corners android:radius="25dp"/>
+
+    <!-- Neon blue border -->
+    <stroke
+        android:width="3dp"
+        android:color="#00BFFF"/>
+
+    <padding
+        android:left="10dp"
+        android:top="8dp"
+        android:right="10dp"
+        android:bottom="8dp"/>
+
+</shape>

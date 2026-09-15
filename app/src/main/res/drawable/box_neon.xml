@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Dark navy glass effect -->
+    <solid android:color="#50101B4D"/>
+
+    <!-- Rounded premium button -->
+    <corners android:radius="35dp"/>
+
+    <!-- Neon blue border -->
+    <stroke
+        android:width="3dp"
+        android:color="#00E5FF"/>
+
+    <padding
+        android:left="15dp"
+        android:top="10dp"
+        android:right="15dp"
+        android:bottom="10dp"/>
+
+</shape>

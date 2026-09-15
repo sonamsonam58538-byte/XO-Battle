@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Button press hone par -->
+    <item android:state_pressed="true">
+
+        <shape>
+
+            <solid android:color="#003B5C"/>
+
+            <stroke
+                android:width="3dp"
+                android:color="#00FFFF"/>
+
+            <corners
+                android:radius="35dp"/>
+
+        </shape>
+
+    </item>
+
+
+    <!-- Normal button -->
+
+    <item>
+
+        <shape>
+
+            <gradient
+
+                android:startColor="#0B1F3A"
+
+                android:endColor="#020817"
+
+                android:angle="270"/>
+
+
+            <stroke
+
+                android:width="3dp"
+
+                android:color="#00BFFF"/>
+
+
+            <corners
+
+                android:radius="35dp"/>
+
+
+            <padding
+
+                android:left="20dp"
+
+                android:right="20dp"
+
+                android:top="10dp"
+
+                android:bottom="10dp"/>
+
+
+        </shape>
+
+    </item>
+
+
+</selector>
